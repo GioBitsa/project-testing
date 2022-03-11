@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Landing Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <nav id="header-lg" class="d-none navbar navbar-light bg-light">
+        <div class="container-lg justify-content-between">
+            <a class="navbar-brand" href="#">
+                <img src="../assets/images/Logo.png" width="100%" alt="company logo"
+                    class="d-inline-block align-text-top">
+            </a>
+            <div class="d-flex">
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" aria-current="page" href="../index.html">About
+                            Bookalu</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active border-secondary border-bottom pb-0" href="#">Customers</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#">Business</a>
+                    </li>
+                </ul>
+                <hr class="mx-3 my-2" style="width: 2px; height: 20px; align-self: center;">
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item mx-3 me-1">
+                        <button type="button" class="btn btn-light">Log in</button>
+                    </li>
+                    <li class="nav-item mx-3 ms-1">
+                        <button type="button" class="btn btn-primary">Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav id="header-sm" class="navbar navbar-light bg-light">
+        <div class="container-lg justify-content-between">
+            <div class="row m-0 w-100">
+                <div class="col-4 d-flex align-items-center">
+                    <a class="navbar-brand m-0 d-flex align-items-center" href="#">
+                        <img src="../assets/images/Logo.png" width="100%" alt="company logo"
+                            class="d-inline-block align-text-top">
+                    </a>
+                </div>
+                <div class="col-4 text-center">
+                    <button type="button" class="btn btn-light">Log in</button>
+                </div>
+                <div class="col-4 text-center">
+                    <button type="button" class="btn btn-primary">Sign Up</button>
+                </div>
+            </div>
+            <div class="d-flex w-100">
+                <ul class="navbar-nav flex-row w-100 justify-content-between">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" aria-current="page" href="../index.html">About
+                            Bookalu</a>
+                    </li>
+                    <li class="nav-item mx-3 active border-secondary border-bottom pb-0">
+                        <a class="nav-link" href="#">Customers</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#">Business</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="container-lg">
+            <div class="row py-4 align-items-center">
+                <div class="col-lg order-lg-2 text-center">
+                    <div class="col-12">
+                        <img src="../assets/images/hero.png" width="100%" alt="hero image">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="me-2">
+                            <img src="../assets/images/app-store.png" alt="">
+                        </div>
+                        <div class="ms-2">
+                            <img src="../assets/images/google-play.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg order-lg-1">
+                    <div class="h1 mt-3 fw-bold">Are you a customer looking for local services?</div>
+                    <p class="mt-4">Sign up for your free account today and search for services within your local area
+                        or radius of
+                        your devices location.</p>
+                    <div class="h5 mt-3 mb-3" style="font-weight: 500;">What you get:</div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-check me-2"></i>
+                        <p class="m-0">A free user account</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-check me-2"></i>
+                        <p class="m-0">Geo located search results</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-check me-2"></i>
+                        <p class="m-0">Booking system</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-check me-2"></i>
+                        <p class="m-0">Access to special offers in your area</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-check me-2"></i>
+                        <p class="m-0">Jobs board to post urgent jobs</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-check me-2"></i>
+                        <p class="m-0">Instant messaging to local businesses</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-check me-2"></i>
+                        <p class="m-0">Reviews system</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-check me-2"></i>
+                        <p class="m-0">Available Now search filter</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="my-5">
+
+    <section id="examples">
+        <div class="container text-center pt-3 pb-5">
+            <p>Gone are the days of google searches and facebook reccomendations.</p>
+            <div class="quotes mb-2">
+                <p>"Find a hairdresser near me"</p>
+                <p>"Local plumber near me"</p>
+                <p>"Cheap mobile mechanic near me"</p>
+                <p>"Can anyone reccomend a cake maker"</p>
+                <p>"Looking for reccomendations"</p>
+            </div>
+            <p>Bookalu allows you to find a variety of local services all under one roof.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container-lg text-center py-5">
+            <div class="row">
+                <div class="col-sm-4 d-flex flex-column align-items-center justify-content-between">
+                    <img src="../assets/images/hair-dresser.svg" alt="user svg">
+                    <div class="h5 text-white">Sign up / Log in</div>
+                    <p>You must sign up to use the application. Users can search for local businesses and book
+                        appointments or services</p>
+                </div>
+                <div class="col-sm-4 d-flex flex-column align-items-center justify-content-between">
+                    <img src="../assets/images/kaska.svg" alt="user svg">
+                    <div class="h5 text-white">Create a business page</div>
+                    <p>Users can also opt to set up a business page with an easy 8 step process giving them lots of free
+                        promotional features</p>
+                </div>
+                <div class="col-sm-4 d-flex flex-column align-items-center justify-content-between">
+                    <img src="../assets/images/step.svg" alt="user svg">
+                    <div class="h5 text-white">Search a businesslservice</div>
+                    <p>Geo location search results are generated within the radius from the location of the users device
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 d-flex flex-column align-items-center justify-content-between">
+                    <img src="../assets/images/calendar.svg" alt="user svg">
+                    <div class="h5 text-white">Book an appointment</div>
+                    <p>Users can book appointments and services directly via the application in real time with local
+                        businesses</p>
+                </div>
+                <div class="col-sm-4 d-flex flex-column align-items-center justify-content-between">
+                    <img src="../assets/images/phone.svg" alt="user svg">
+                    <div class="h5 text-white">Call Now Feature</div>
+                    <p>Users can call businesses directly from the application if services need more discussion proir to
+                        booking</p>
+                </div>
+                <div class="col-sm-4 d-flex flex-column align-items-center justify-content-between">
+                    <img src="../assets/images/star.svg" alt="user svg">
+                    <div class="h5 text-white">Leave a Review</div>
+                    <p>Our built in reviews system allows businesses to build their reputation. Users can leave reviews
+                        and ratings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="bg-dark">
+        <div class="container-lg py-2">
+            <div class="row text-white align-items-center">
+                <div class="col-md-4 d-flex align-items-center justify-content-between social">
+                    <p class="text-nowrap m-0" class="m-0">© Copyright Bookalu Ltd 2022 </p>
+                    <ul class="navbar-nav flex-row ms-2">
+                        <li class="nav-item mx-2">
+                            <a href="#" class="text-white nav-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="#" class="text-white nav-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a href="#" class="text-white nav-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8 d-flex justify-content-end">
+                    <ul class="navbar-nav w-100 justify-content-end flex-row flex-wrap">
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link text-white">Advertise</a>
+                        </li>
+                        <hr class="mx-1 my-2" style="width: 2px; height: 20px; align-self: center;">
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link text-white">Terms</a>
+                        </li>
+                        <hr class="mx-1 my-2" style="width: 2px; height: 20px; align-self: center;">
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link text-white">Cookies</a>
+                        </li>
+                        <hr class="mx-1 my-2" style="width: 2px; height: 20px; align-self: center;">
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link text-white">Privacy</a>
+                        </li>
+                        <hr class="mx-1 my-2" style="width: 2px; height: 20px; align-self: center;">
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link text-white">Disclaimer</a>
+                        </li>
+                        <hr class="mx-1 my-2" style="width: 2px; height: 20px; align-self: center;">
+                        <li class="nav-item mx-3">
+                            <a href="#" class="nav-link text-white">Support</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="../assets/js/bootstrap.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="../assets/js/app.js"></script>
+</body>
+
+</html>
